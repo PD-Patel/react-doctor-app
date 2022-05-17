@@ -64,7 +64,7 @@ function Login() {
             and <span> Privacy Notice</span>
           </InfoText>
           <SignUpButton onClick={() => navigate("/signup")}>
-            Create Account in Amazon
+            Create Account in DoctorApp
           </SignUpButton>
         </FormContainer>
       </Main>
@@ -202,7 +202,7 @@ const InfoText = styled.p`
 `;
 
 const SignUpButton = styled.button`
-  width: 55%;
+  width: 60%;
   height: 35px;
   font-size: 12px;
   margin-top: 20px;

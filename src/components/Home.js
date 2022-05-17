@@ -350,6 +350,14 @@ const LeftContainer = styled.div`
       &::-webkit-scrollbar {
         display: none;
       }
+
+      @media only screen and (max-width: 618px) {
+        display: flex;
+        flex-direction: column;
+        overflow-y: scroll;
+        width: 80%;
+        height: 250px;
+      }
     }
   }
 `;
